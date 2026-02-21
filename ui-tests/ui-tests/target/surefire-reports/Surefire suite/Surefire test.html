@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Smoke Tests</title>
+<title>TestNG:  Surefire test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Smoke Tests</h2><table border='1' align="center">
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Feb 21 09:42:31 EST 2026</td>
+<td>Started on:</td><td>Sat Feb 21 09:40:01 EST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (48 ms)</td>
+<tr><td>Total time:</td><td>12 seconds (12869 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.rashmi.sdet90.smoke.SmokeTest.firstPassingTest()'><b>firstPassingTest</b><br>Test class: com.rashmi.sdet90.smoke.SmokeTest</td>
+<td title='com.rashmi.sdet90.smoke.LoginTest.emptyFields_shouldShowError()'><b>emptyFields_shouldShowError</b><br>Test class: com.rashmi.sdet90.smoke.LoginTest</td>
 <td></td>
 <td>0</td>
-<td>com.rashmi.sdet90.smoke.SmokeTest@245b4bdc</td></tr>
+<td>com.rashmi.sdet90.smoke.LoginTest@3c22fc4c</td></tr>
+<tr>
+<td title='com.rashmi.sdet90.smoke.LoginTest.invalidPassword_shouldShowError()'><b>invalidPassword_shouldShowError</b><br>Test class: com.rashmi.sdet90.smoke.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.rashmi.sdet90.smoke.LoginTest@3c22fc4c</td></tr>
+<tr>
+<td title='com.rashmi.sdet90.smoke.LoginTest.validLogin_shouldSucceed()'><b>validLogin_shouldSucceed</b><br>Test class: com.rashmi.sdet90.smoke.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.rashmi.sdet90.smoke.LoginTest@3c22fc4c</td></tr>
 </table><p>
 </body>
 </html>
